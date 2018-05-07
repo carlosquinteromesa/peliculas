@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background-color:#0a0a0a;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.menu {
+    background-color:rgb(42, 34, 156);
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul>li{
+display: inline-block;
+}
+.menu ul li a{
+    color:#0c0c0c;
+    display: block;
+    padding: 20px 73px 20px 82.3px;
+    margin: 0 -5px;
+    
+}
+.menu ul li a:hover{
+    background-color: rgb(42, 34, 156);
+    border-bottom: solid #000000;
+    box-sizing: border-box;
+}
+.active{
+    background-color: rgb(42, 34, 156);
+    border-bottom: solid #0c0c0c;
+    box-sizing: border-box;
+}
+
+.imgCC{
+    height: 80px;
+    width: 80px;
+}
+.galeria {
+    height: calc( 300px + 3em);
+    width: 100%; 
+    position: relative;  
+    margin-bottom: 5px;
+  }
+  
+.galeria img {
+    margin-left: -65px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 3s;
+    margin-top: 4px;
+    width: 1350px;
+    height: 535px;
+  }
+   
+  .galeria input[type=radio] {
+    position: relative;
+    bottom: calc(-300px - 1.5em);
+    left: 48em;
+    margin-top: 200px;
+    z-index: 30;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+    opacity: 1;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+    opacity: 1;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+    opacity: 1;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+    opacity: 1;
+  }
+.cont1{
+    display: inline-block;    
+    height: 300px;
+    width: 855px;
+}
+
+.mov1{
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    width: 855px;
+    margin-top: 210px;
+}
+
+.mov1 img{
+    width: 210px;
+    height: 300px;
+    
+}
+.cont2{
+    margin-top: 290px;
+    float: right;
+   display:inline-block;
+    width: 475px;
+   
+}
+
+.cont2 img{
+    width: 340px;   
+    margin-left: 77px;
+}
+
+footer{
+    width: 1349px;
+    height: 100px;
+   left: 0;
+   bottom:  0;
+}
+footer img{
+    width: 60px;
+    height: 60px;
+}
