@@ -144,4 +144,16 @@ footer img{
     width: 403px;
     height: 96px;
     margin-left: 525px;
+} 
+.cont1-2 .mov1-2{
+    display: inline-block;
+    height: 300px;  
+    width: 1100px;
+    margin-left: 145px;
+    margin-top: 75px;
+}
+.mov1-2 img{
+    width: 245px;
+    height: 330px;
+    margin: 10px;
 }
