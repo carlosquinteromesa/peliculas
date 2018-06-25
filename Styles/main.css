@@ -24,6 +24,7 @@ body{
 display: inline-block;
 }
 .menu ul li a{
+    border-bottom: solid #fff;
     color:#000000;
     display: block;
     padding:20px 72px 20px 51.3px;

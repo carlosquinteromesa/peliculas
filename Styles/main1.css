@@ -24,6 +24,7 @@ body{
 display: inline-block;
 }
 .menu ul li a{
+    border-bottom: solid #fff;
     color:rgb(10, 10, 10);
     display: block;
     padding:20px 72px 20px 51.3px;
@@ -337,6 +338,7 @@ visibility: visible;
 		color: #0000FF;
     }
     .video{
+        margin-top: 30px;
         height: 100%;
-        margin-left: 20px
+        margin-left: 31px;
     }
